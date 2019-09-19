@@ -1,0 +1,988 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta name="language" content="uk">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="./favicon.ico" rel="shortcut icon" />
+ 	<!-- Stylesheets
+	============================================= -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/resp.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+		<!-- Header  -->
+		<header id="main_header" class="nav-down">
+            <div id="top-contacts-bar">
+                <!--<div class="top-contacts-bar-item" id="language">
+                        <p ><a href="./uk/index.html"><img src="./images/ukr_50.png" /></a><img src="./images/flag_eng.png" /></p>
+                </div>-->
+                <div class=top-contacts-bar-item>
+                    <div class="icon-block"><svg style="width:40px;height:40px" viewBox="0 0 24 24">
+                            <path fill="#303d82" d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4M12,11L20,6H4L12,11M4,18H20V8.37L12,13.36L4,8.37V18Z" />
+                        </svg>
+                    </div>
+                    <div class='contact_info'><p>Пишіть нам:<br><span><a href="mailto:info@yocco-ukraine.com.ua">info@yocco-ukraine.com.ua</a></span></p></div>
+                </div>
+                
+                <div class='top-contacts-bar-item'>
+                    <div class="icon-block"><svg style="width:40px;height:40px" viewBox="0 0 24 24"><path fill="#303d82" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                        </svg>
+                    </div>
+                    <div class='contact_info'><p>Телефонуйте нам:<br><span><a href="tel:+380985807828">+38 098 580 78 28</a></span></p></div>
+                </div>
+            </div>
+            <div class='clear'></div> 
+        <!-- Menu Bar  -->        
+            <div id="logo_ua"><a href="./index.html" title="Link to the main page" ><img src="./images/logo/logo_ua_172x100.png" alt="Logo LLC YOCCO"></a></div>
+            <div id="menu_collapsed">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+            <nav>
+                <ul class='active'>
+                    <li><a href="./index.html" >Головна</a></li>
+                    <li><a href="./index.html#catalog" >Каталог</a></li>
+                    <li><a href="./index.html#photogallery" >Галерея</a></li>
+                    <li><a href="#" >Теми дизайну</a></li>
+                    <li><a href="./index.html#contacts" >Контакти</a></li>
+                    <!--<li class="invisible"><a href="./index.html"><img src="./images/ukr_50.png" /></a>  <img src="./images/flag_eng.png" /></li>-->
+                </ul>
+            </nav>
+        </header>
+		<!-- Page Title -->
+        <section class="page-title">
+            <h1>ТЕМИ ДИЗАЙНУ ШАФ</h1>
+            <p>Подивіться нашу галерею і виберіть свою тему дизайну!</p>               
+        </section><!-- #page-title end -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container">
+                    <div id="description"></div>
+    
+                    <!-- Portfolio Filter -->
+                    <ul id="portfolio-filter" class="clearfix">
+                        <li class="activeFilter"><a href="#" data-filter="*">Всі</a></li>
+                        <li><a href="#" data-filter=".pf-europa">Міста Європи</a></li>
+                        <li><a href="#" data-filter=".pf-swiat">Міста світу</a></li>
+                        <li><a href="#" data-filter=".pf-zabytki">Історичні</a></li>
+                        <li><a href="#" data-filter=".pf-natura">Природа</a></li>
+                        <li><a href="#" data-filter=".pf-dzieci">Для дітей</a></li>
+                        <li><a href="#" data-filter=".pf-sport">Спорт</a></li>
+                        <li><a href="#" data-filter=".pf-collage">Колажі</a></li>
+                        <li><a href="#" data-filter=".pf-grafitti">Графіті</a></li>
+                        <li><a href="#" data-filter=".pf-infografika">Інфографіка</a></li>
+                        <li><a href="#" data-filter=".pf-zwierzeta">Тварини</a></li>
+                        <li><a href="#" data-filter=".pf-edukacyjne">Навчальні</a></li>
+
+                    </ul><!-- #portfolio-filter end -->
+
+                    <div class="clear"></div>   
+                    <!-- Theme Gallery -->
+                    <div id="portfolio" class="clearfix" data-lightbox="gallery">
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image001\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image001\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image002\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image002\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image003\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image003\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image008\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image008\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image005\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image005\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-europa">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image006\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image006\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-swiat">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image007\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image007\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-swiat">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image009\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image009\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-swiat">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image010\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image010\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-swiat">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image004\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image004\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-swiat">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image011\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image011\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image012\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image012\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image013\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image013\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image014\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image014\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image015\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image015\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image016\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image016\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zabytki">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image017\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image017\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image018\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image018\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image019\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image019\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image020\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image020\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image021\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image021\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image022\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image022\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image023\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image023\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image024\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image024\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image025\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image025\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image026\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image026\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image027\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image027\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image028\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image028\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image029\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image029\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image030\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image030\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image031\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image031\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image032\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image032\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image033\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image033\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image034\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image034\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image035\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image035\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image036\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image036\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image037\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image037\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image038\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image038\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image039\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image039\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image040\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image040\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image041\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image041\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image042\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image042\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image043\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image043\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image044\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image044\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image045\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image045\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image046\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image046\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image047\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image047\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image048\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image048\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image049\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image049\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zwierzeta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image050\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image050\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zwierzeta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image051\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image051\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zwierzeta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image052\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image052\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zwierzeta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image053\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image053\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-zwierzeta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image054\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image054\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image056\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image056\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image057\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image057\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image058\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image058\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-collage">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image059\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image059\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image060\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image060\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image061\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image061\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image062\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image062\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image063\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image063\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image064\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image064\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image065\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image065\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image066\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image066\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image067\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image067\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image068\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image068\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image069\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image069\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image070\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image070\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image071\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image071\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image072\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image072\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image073\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image073\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image074\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image074\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image075\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image075\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image076\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image076\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image077\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image077\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image078\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image078\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image079\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image079\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image080\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image080\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image081\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image081\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image082\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image082\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image083\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image083\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image084\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image084\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image085\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image085\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image086\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image086\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image055\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image055\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image087\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image087\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image088\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image088\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image089\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image089\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image090\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image090\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image091\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image091\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image092\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image092\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image093\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image093\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image094\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image094\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image095\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image095\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image096\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image096\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image097\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image097\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image098\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image098\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image099\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image099\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image100\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image100\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image101\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image101\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image102\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image102\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image103\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image103\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image104\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image104\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image105\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image105\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image106\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image106\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image107\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image107\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image108\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image108\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image109\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image109\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image110\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image110\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image111\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image111\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-sport">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image112\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image112\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image113\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image113\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image114\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image114\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image115\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image115\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image116\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image116\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-dzieci">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image117\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image117\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-grafitti">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image118\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image118\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image119\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image119\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image120\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image120\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image121\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image121\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-miasta">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image122\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image122\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-infografika">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image123\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image123\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image124\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image124\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image126\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image126\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image127\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image127\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image128\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image128\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image129\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image129\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image130\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image130\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image131\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image131\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-natura">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image132\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image132\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image125\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image125\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                            <article class="portfolio-item pf-edukacyjne">
+                                            <div class="portfolio-image"><a href="edc_media\Lite\Item-0236\Gallery\Image133\autoxautomAUTOcFFFFFF.jpg" data-lightbox="gallery-item">
+                                                    <img src="edc_media\Lite\Item-0236\Gallery\Image133\276x207mCROPcFFFFFF.jpg" alt="motywy graficzne">
+                                </a></div>
+                            </article>
+                                
+                    </div>
+                </div>
+            </div><!-- .content-wrap  -->	
+        </section><!-- #content  -->
+        <div class="clear"></div>   
+		<!-- Footer -->
+		
+		<footer id="contacts">
+            <div class='footer-item'>
+                <a href="mailto:info@yocco-ukraine.com.ua" title="Link to e-mail" >
+                    <div class="icon-block">
+                        <svg style="width:60px;height:60px" viewBox="0 0 24 24">
+                            <path fill="#fff" d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4M12,11L20,6H4L12,11M4,18H20V8.37L12,13.36L4,8.37V18Z" />
+                        </svg>
+                    </div>
+                    <div class='contact_info'><p>Пишіть нам:<br><span>info@yocco-ukraine.com.ua</span></p></div>
+                </a>
+            </div>
+            <div class='footer-item'>
+                <a href="tel:+380985807828" title="Link to phone call" > 
+                    <div class="icon-block"><svg style="width:60px;height:60px" viewBox="0 0 24 24"><path fill="#fff" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                        </svg>
+                    </div>
+                    <div class='contact_info'><p>Телефонуйте нам:<br><span>+38 098 580 78 28</span></p></div>
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="viber://chat?number=+380985807828" title="Link to Viber">
+                    <div class="icon-block">
+                        <svg style="width:60px;height:60px"  viewBox="0 0 512 512"><path fill="#fff" d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z"></path></svg>
+                    </div>
+                    <div class="contact-info">
+                        <p>Viber<br>Завжди на зв'язку</p>
+                    </div>
+                </a>
+            </div>
+                <div class="footer-item">
+                <a href="https://wa.me/380985807828" target="_blank" rel="noreferrer" title="Link to WhatsApp">
+                    <div class="icon-block">
+                        <svg style="width:60px;height:60px"  viewBox="0 0 512 512">
+                            <path style="fill:#fff;" d="M378.853,294.202c-0.997-0.479-38.324-18.859-44.956-21.246c-2.708-0.972-5.609-1.922-8.694-1.922
+                            c-5.04,0-9.274,2.512-12.572,7.446c-3.729,5.542-15.016,18.736-18.503,22.678c-0.456,0.52-1.077,1.142-1.45,1.142
+                            c-0.334,0-6.111-2.379-7.86-3.138c-40.041-17.393-70.433-59.219-74.601-66.272c-0.595-1.014-0.62-1.474-0.625-1.474
+                            c0.146-0.537,1.493-1.887,2.188-2.583c2.033-2.011,4.236-4.663,6.367-7.228c1.009-1.215,2.02-2.432,3.012-3.579
+                            c3.092-3.597,4.468-6.39,6.064-9.625l0.836-1.681c3.897-7.742,0.569-14.274-0.507-16.384c-0.883-1.765-16.643-39.803-18.319-43.799
+                            c-4.03-9.643-9.354-14.133-16.753-14.133c-0.687,0,0,0-2.879,0.121c-3.506,0.148-22.598,2.661-31.039,7.983
+                            c-8.952,5.644-24.096,23.633-24.096,55.271c0,28.474,18.07,55.359,25.828,65.584c0.193,0.258,0.547,0.781,1.061,1.533
+                            c29.711,43.39,66.75,75.547,104.297,90.546c36.148,14.439,53.265,16.108,62.996,16.108c0.002,0,0.002,0,0.002,0
+                            c4.089,0,7.362-0.321,10.25-0.605l1.832-0.175c12.487-1.107,39.929-15.327,46.171-32.673c4.917-13.663,6.214-28.591,2.942-34.008
+                            C387.604,298.403,383.742,296.549,378.853,294.202z"/>
+                            <path style="fill:#fff;" d="M260.545,0C121.879,0,9.066,111.965,9.066,249.588c0,44.512,11.912,88.084,34.479,126.218
+                            L0.352,503.216c-0.805,2.375-0.206,5.002,1.551,6.791C3.172,511.302,4.892,512,6.649,512c0.673,0,1.351-0.101,2.013-0.313
+                            l132.854-42.217c36.355,19.424,77.445,29.678,119.03,29.678C399.199,499.15,512,387.197,512,249.588
+                            C512,111.965,399.199,0,260.545,0z M260.545,447.159c-39.13,0-77.029-11.299-109.608-32.677c-1.095-0.72-2.367-1.089-3.647-1.089
+                            c-0.677,0-1.355,0.103-2.015,0.313l-66.552,21.155l21.484-63.383c0.695-2.051,0.347-4.314-0.933-6.063
+                            c-24.809-33.898-37.923-73.949-37.923-115.827c0-108.955,89.357-197.597,199.191-197.597c109.821,0,199.168,88.642,199.168,197.597
+                            C459.713,358.53,370.367,447.159,260.545,447.159z"/>
+        
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <p>Whatsapp<br>Завжди на зв'язку</p>
+                    </div>
+                </a>
+            </div>
+                <div class="footer-item">
+                <div class="icon-block">
+                        <svg width="50px" height="50px" viewBox="0 0 512 512"  >
+                    <path fill="#fff"  d="M256,0C167.641,0,96,71.625,96,160c0,24.75,5.625,48.219,15.672,69.125C112.234,230.313,256,512,256,512l142.594-279.375                    C409.719,210.844,416,186.156,416,160C416,71.625,344.375,0,256,0z M256,256c-53.016,0-96-43-96-96s42.984-96,96-96
+                    c53,0,96,43,96,96S309,256,256,256z"></path></svg>
+        
+                </div>
+                <div class="contact-info">
+                    <p>Україна, 33000<br>вул. Курчатова, 1 <br> 
+                </div>
+            </div>
+        </footer><!-- footer end -->
+	</div><!-- #wrapper end -->
+    
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+        $('#portfolio').magnificPopup({
+            delegate: 'a[data-lightbox="gallery-item"]',
+						type: 'image',
+						closeOnContentClick: true,
+						closeBtnInside: false,
+						fixedContentPos: true,
+						mainClass: 'mfp-no-margins mfp-fade', // class to remove default margin from left and right side
+						image: {
+							verticalFit: true
+						},
+						gallery: {
+							enabled: true,
+							navigateByImgClick: true,
+							preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+						}
+        });
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+
+@media screen and (min-width: 400px) {
+/*-------------------------------------------
+   SLIDER
+-------------------------------------------*/ 
+    .slide .content {
+        bottom: 5px;
+        width: 319px;
+        min-height: 80px;
+        max-width: 320px;}
+    .slide .content h1 {
+        margin: 10px 0 0 20px;
+        font-size: 24px;
+        }
+
+/*-------------------------------------------
+   THEMES PAGE
+-------------------------------------------*/ 
+    #content .container {
+        width: 390px; }
+    #portfolio-filter {
+        margin: 0 0 35px 10px; }
+    #portfolio-filter li {
+        width: 50%;
+        min-width: 119px;
+        margin-bottom: 10px; }
+    #portfolio .portfolio-item {
+        width: 170px;
+        float: left;
+        margin: 0 5px 3px 5px; }
+    .portfolio-item .portfolio-image img {
+        width: 170px; }
+
+    .slide .content {
+        bottom: 20px;  
+    }
+/*-------------------------------------------
+   FEATURES
+-------------------------------------------*/ 
+    #features ul li {
+        font-size: 16px; }
+    
+}
+
+@media screen and (min-width: 760px) {
+/*-------------------------------------------
+   THEMES PAGE
+-------------------------------------------*/ 
+    #content .container {
+        width: 750px; }
+    #portfolio-filter {
+        margin: 0 0 40px 80px; }
+    #portfolio-filter li {
+        width: 33%; }
+    #portfolio .portfolio-item {
+        width: 230px; }
+    .portfolio-item .portfolio-image img {
+        width: 230px; }
+    .slide .content {
+        bottom: 20px;  
+    }
+  
+}
+
+@media screen and (min-width: 860px) {
+    body {
+    padding-top: 130px; }
+/*-------------------------------------------
+   HEADER
+-------------------------------------------*/ 
+    header {
+        height: 150px; }
+    .nav-up {
+        top: -150px; }
+    #top-contacts-bar {
+        display: block; }
+/*-------------------------------------------
+   HEADER - LOGO
+-------------------------------------------*/ 
+    #logo_ua {
+      width: 200px;
+      height: 110px;
+      margin-left: 40px; }
+/*-------------------------------------------
+   HEADER - MAIN NAVIGATION
+-------------------------------------------*/     
+    #main_header nav {
+      width: 550px;
+      float: right;
+      clear: none; }
+    #main_header nav li {
+      display: inline-block;
+      margin-left: 14px;
+      border: none; }
+    #main_header nav li:hover{
+        background-color: transparent; }
+    #main_header #menu_collapsed {
+      display: none; }
+    #main_header .active { display: block; }
+    #main_header nav .invisible {
+      display: none;
+    }
+/*-------------------------------------------
+   SLIDER
+-------------------------------------------*/     
+    #slider {
+        height: 420px; }
+    #slider .content {
+      
+      margin-top: 250px;
+      width: 550px;
+      max-width: 620px;
+      min-height: 130px;
+      margin: 250px auto 0 auto;}
+    #slider .content h1 {
+      font-size: 36px;
+      font-weight: 700; 
+      line-height: 1.2;
+      margin: 20px 0 0 40px; }
+    .section-header {
+        padding-top: 60px;}
+    .section-header h2 {
+        font-size: 30px; 
+    }
+    .section-header p {
+        width: 700px;
+        font-size: 20px;
+    }
+    @keyframes slidercontent {
+        from { 
+            left: -620px;
+      }
+        to { }
+    }
+
+    #about {}
+    #about h1 {
+        font-size: 24px;
+        width: 600px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+/*-------------------------------------------
+   CATALOG
+-------------------------------------------*/ 
+   .product {
+    width: 300px;
+    height: 550px; 
+    text-align: center; }
+/*-------------------------------------------
+   GALLERY
+-------------------------------------------*/   
+    #photogallery #gallery li {
+        width: 300px;
+        margin: 5px 10px; }
+/*-------------------------------------------
+   COLORS
+-------------------------------------------*/  
+#colors  {
+    min-width: 860px;
+    max-width: 1000px;
+    margin: 0 auto; }
+    #colors .product {
+        height: 450px;
+    }
+    #colors h3 {
+        
+        font-weight: 700;
+        margin-bottom: 30px;
+
+    }
+    #colors img {
+        width: 200px;
+    }
+/*-------------------------------------------
+   FEATURES
+-------------------------------------------*/ 
+    #features { margin-top: 60px; }
+    #features .img_prlx {
+        height: 890px;
+        background-image: url("../images/gallery/large/gallery_x_36.jpg");
+        background-position: center center; }
+    #features .img_prlx .trans_background {
+        margin: 60px auto;
+        width: 780px;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+    #features .img_prlx .trans_background h2 {
+        margin: 20px;
+    }
+    #features ul {
+        width: 80%;
+        margin: 0 auto 30px auto; }
+    #features ul li {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px; }
+/*-------------------------------------------
+   FOOTER
+-------------------------------------------*/  
+    footer {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
+        padding-bottom: 0; }     
+    .footer-item {
+        width: 150px;
+        height: auto;
+        cursor: pointer;
+        padding: 20px; }
+    
+}
+
+
+@media screen and (min-width: 1160px){
+/*-------------------------------------------
+   THEMES PAGE
+-------------------------------------------*/ 
+    #content .container {
+        width: 1150px;
+    }
+    #portfolio-filter {
+        margin: 0 0 40px 20px; }
+    #portfolio-filter li {
+        width: auto;
+        margin-bottom: 10px; }
+    #portfolio .portfolio-item {
+        width: 270px; }
+    .portfolio-item .portfolio-image img {
+        width: 270px; }
+}
+
+
+@media screen and (min-width: 1300px){
+    /*-------------------------------------------
+   SLIDER
+-------------------------------------------*/     
+    #slider {
+        height: 620px; }
+    
+}
